@@ -1,0 +1,17 @@
+1. ustawiamy punkt pracy oraz wyłączamy wszystkie nastawy
+Upp=-0.66;
+Ypp=-0.283777;
+Kr = 0; 
+Ti = inf;             
+Td = 0;
+2. ustawiamy skok wartości zadanej z punktu pracy na wartość o 0,01 większą na punkt pracy
+yzad(1:kk)=Ypp;
+yzad(150:kk)=Ypp+0.01;
+3. dobieramy takie wzmocnienie aby nie wystąpiło przeregulowanie bądź wystąpiło minimalne
+K=4
+4. dobieramy takie Ti aby układ nie wpadł w oscylacje ani nie regulował zbyt wolno
+Ti=2
+5. jeżeli chcemy lekko poprawić jakość regulacji możemy dobrać parametr Td
+Td=0.1
+
+wszystkie wartości są przykładowe

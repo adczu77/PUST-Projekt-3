@@ -1,0 +1,69 @@
+wyznaczano parametry metodą eksperymentalną
+skoki wartości zadanej o +0.01
+parametry bez nawiasu to parametry dobrane dla każdego regulatora lokalnego osobno (działają świetnie w okolicach punktu
+pracy ale nie zawsze muszą działać dobrze dla całej trajektorii)
+parametry w nawiasach to te, dla których regulator działa dobrze na całej trajektorii
+ 
+LICZBA REGULATORÓW LOKALNYCH: 2
+	reg nr 1:	Upp = -0.66	Ypp = -0.283777
+		K = 	4					N = 35	      
+		Ti = 	2					Nu = 1
+		Td = 	0.1					lambda = 1	(1)
+	reg nr 2:	Upp = 0.66	Ypp = 5.82982
+		K = 	0.05		  			N = 10   
+		Ti = 	4					Nu = 1
+		Td = 	0.4					lambda = 1	(400)
+
+LICZBA REGULATORÓW LOKALNYCH: 3
+	reg nr 1:	Upp = -0.75	Ypp = -0.291798
+		K = 	3	        			N = 45
+		Ti = 	2					Nu = 1
+		Td = 	0.5					lambda = 1	(100)
+	reg nr 2:	Upp = 0		Ypp = 0
+		K = 	0.15    				N = 10   
+		Ti = 	1.75					Nu = 1
+		Td = 	0.9					lambda = 1	(10)
+	reg nr 3:	Upp = 0.75	Ypp = 7.28582
+		K = 	0.035					N = 10               
+		Ti = 	4					Nu = 1
+		Td = 	0.4					lambda = 1 	(1)
+
+LICZBA REGULATORÓW LOKALNYCH: 4
+	reg nr 1:	Upp = -0.8	Ypp = -0.296365	
+		K = 	2     					N = 35        
+		Ti = 	1.2					Nu = 1
+		Td = 	0.6					lambda = 1	(1)
+	reg nr 2:	Upp = -0.2	Ypp = -0.212438	
+		K = 	0.75		   			N = 6
+		Ti = 	1.95					Nu = 1
+		Td = 	0.8					lambda = 1	(10)
+	reg nr 3:	Upp = 0.2	Ypp = 0.733765	
+		K = 	0.1					N = 10
+		Ti = 	3.2					Nu = 1
+		Td = 	0.5					lambda = 1	(100)
+	reg nr 4:	Upp = 0.8	Ypp = 8.14098	
+		K = 	0.03					N = 10
+		Ti = 	4					Nu = 1
+		Td = 	0.7					lambda = 1	(1)
+
+LICZBA REGULATORÓW LOKALNYCH: 5
+	reg nr 1:	Upp = -0.83	Ypp = -0.299143
+		K = 	3					N = 80    
+		Ti =	2					Nu = 1
+		Td = 	0.3					lambda = 1	(1)
+	reg nr 2:	Upp = -0.33	Ypp = -0.249782
+		K = 	1.5	        			N = 10
+		Ti = 	1.9					Nu = 1
+		Td = 	0.4					lambda = 1	(1)
+	reg nr 3:	Upp = 0		Ypp = 0 	
+		K = 	0.15					N = 10
+		Ti = 	1.7					Nu = 1
+		Td = 	0.8					lambda = 1	(100)
+	reg nr 4:	Upp = 0.33	Ypp = 1.68813		
+		K = 	0.05					N = 10       
+		Ti = 	2.5					Nu = 1
+		Td = 	0.9					lambda = 1	(1)
+	reg nr 5:	Upp = 0.83	Ypp = 8.66867
+		K = 	0.01					N = 10
+		Ti = 	2.7					Nu = 1
+		Td = 	1.5					lamda = 1	(100)

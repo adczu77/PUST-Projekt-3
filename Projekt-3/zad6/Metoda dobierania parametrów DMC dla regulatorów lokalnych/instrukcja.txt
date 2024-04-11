@@ -1,0 +1,15 @@
+1. ustawiamy punkt pracy oraz horyzonty predykcji oraz sterowania ustawiamy na 1 (horyzont dynamiki jest stały)
+Upp=-0.66;
+Ypp=-0.283777;
+N = 1; 
+Nu = 1;             
+2. ustawiamy skok wartości zadanej z punktu pracy na wartość o 0,01 większą na punkt pracy
+yzad(1:kk)=Ypp;
+yzad(150:kk)=Ypp+0.01;
+3. dobieramy takie horyzont predykcji aby nie wystąpiło przeregulowanie i jednocześnie regulacja następowała jak najszybciej i z jak najmniejszym błędem
+N=35
+4. sprawdzamy czy zwiększanie Nu doprowadza do zwiększania błędu E, wystąpienia przeregulowania czy zwiększenia czasu regulacji
+jeżeli tak wartość zostawiamy, jeżeli nie to większamy wartość Nu
+Nu=1
+
+wszystkie wartości są przykładowe

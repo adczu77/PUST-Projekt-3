@@ -1,0 +1,1 @@
+Zarówno właściwości statyczne i dynamiczne procesu NIE są liniowe.
